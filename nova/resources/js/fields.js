@@ -151,6 +151,7 @@ Vue.component('index-file-field', require('./components/Index/FileField.vue'))
 Vue.component('detail-file-field', require('./components/Detail/FileField.vue'))
 Vue.component('form-file-field', require('./components/Form/FileField.vue'))
 
+
 // Vapor File Field
 Vue.component(
   'index-vapor-file-field',

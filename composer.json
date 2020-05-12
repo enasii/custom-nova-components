@@ -9,13 +9,14 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.5",
+        "bissolli/nova-phone-field": "^0.0.4",
+        "checkbox/checkbox": "*",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",
         "guzzlehttp/guzzle": "^6.3",
         "laravel/framework": "^7.0",
-        "laravel/tinker": "^2.0",
         "laravel/nova": "*",
-        "checkbox/checkbox": "*"
+        "laravel/tinker": "^2.0"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
@@ -32,15 +33,8 @@
         {
             "type": "path",
             "url": "./nova-components/Checkbox"
-        },
-        {
-            "type": "path",
-            "url": "./nova-components/Phonenumber"
-        },
-        {
-            "type": "path",
-            "url": "./nova-components/Dropdown"
         }
+
     ],
     "config": {
         "optimize-autoloader": true,
