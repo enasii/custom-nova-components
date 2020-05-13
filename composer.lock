@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "02107d569d69da7b34a5937bbfb2d75e",
+    "content-hash": "2b17a65533e67fbac541aa66f3a5bbb8",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1888,6 +1888,47 @@
                 "php"
             ],
             "time": "2020-04-10T16:34:50+00:00"
+        },
+        {
+            "name": "onemoreahmad/phonenumber",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/onemoreahmad/phonenumber.git",
+                "reference": "715fb16418cd67111be85c126246dd48dce3bd94"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/onemoreahmad/phonenumber/zipball/715fb16418cd67111be85c126246dd48dce3bd94",
+                "reference": "715fb16418cd67111be85c126246dd48dce3bd94",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Onemoreahmad\\Phonenumber\\FieldServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Onemoreahmad\\Phonenumber\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A Laravel Nova field.",
+            "keywords": [
+                "laravel",
+                "nova"
+            ],
+            "time": "2019-12-09T16:07:46+00:00"
         },
         {
             "name": "opis/closure",
@@ -6368,7 +6409,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "onemoreahmad/phonenumber": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

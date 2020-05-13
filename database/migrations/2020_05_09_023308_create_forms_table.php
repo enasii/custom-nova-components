@@ -18,6 +18,7 @@ class CreateFormsTable extends Migration
             $table->string('component1')->default('xxx')->nullable();
             $table->string('component2')->default('xxx')->nullable();
             $table->string('component3')->default('xxx')->nullable();
+            $table->string('country')->default('xxx')->nullable();
             $table->bigInteger('component4')->default('055555555')->nullable();
             $table->timestamps();
         });

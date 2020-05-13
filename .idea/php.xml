@@ -113,6 +113,7 @@
       <path value="$PROJECT_DIR$/vendor/brick/money" />
       <path value="$PROJECT_DIR$/vendor/vucompn/dropdown" />
       <path value="$PROJECT_DIR$/vendor/bissolli/nova-phone-field" />
+      <path value="$PROJECT_DIR$/vendor/onemoreahmad/phonenumber" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

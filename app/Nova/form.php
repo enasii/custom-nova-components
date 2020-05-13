@@ -2,11 +2,12 @@
 
 namespace App\Nova;
 
-use Bissolli\NovaPhoneField\PhoneNumber;
+
 use Checkbox\Checkbox\Checkbox;
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Http\Requests\NovaRequest;
+use Onemoreahmad\Phonenumber\Phonenumber;
 
 class form extends Resource
 {
@@ -48,7 +49,8 @@ class form extends Resource
                 'op1' => 'op1',
                 'op2' => 'op2',
             ]),
-            PhoneNumber::make('component4'),
+            Phonenumber::make(__('Phone Number'), 'component4')
+                ->withMeta(['country'=> $this->country ])->sortable(),
             //option from database
 //            ->options(App\User::pluck('name', 'id'))
 
