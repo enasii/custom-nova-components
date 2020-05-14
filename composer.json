@@ -17,7 +17,8 @@
         "laravel/framework": "^7.0",
         "laravel/nova": "*",
         "laravel/tinker": "^2.0",
-        "onemoreahmad/phonenumber": "dev-master"
+        "onemoreahmad/phonenumber": "dev-master",
+        "novacom/phone_number": "*"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
@@ -34,8 +35,11 @@
         {
             "type": "path",
             "url": "./nova-components/Checkbox"
+        },
+        {
+            "type": "path",
+            "url": "./nova-components/PhoneNumber"
         }
-
     ],
     "config": {
         "optimize-autoloader": true,

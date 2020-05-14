@@ -13,7 +13,9 @@
         "build-phonenumber": "cd nova-components/Phonenumber && npm run dev",
         "build-phonenumber-prod": "cd nova-components/Phonenumber && npm run prod",
         "build-dropdown": "cd nova-components/Dropdown && npm run dev",
-        "build-dropdown-prod": "cd nova-components/Dropdown && npm run prod"
+        "build-dropdown-prod": "cd nova-components/Dropdown && npm run prod",
+        "build-phone_number": "cd nova-components/PhoneNumber && npm run dev",
+        "build-phone_number-prod": "cd nova-components/PhoneNumber && npm run prod"
     },
     "devDependencies": {
         "axios": "^0.19",
@@ -24,5 +26,8 @@
         "sass": "^1.15.2",
         "sass-loader": "^8.0.0",
         "vue-template-compiler": "^2.6.11"
+    },
+    "dependencies": {
+        "vue-tel-input": "^4.4.0"
     }
 }

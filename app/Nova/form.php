@@ -7,7 +7,8 @@ use Checkbox\Checkbox\Checkbox;
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Http\Requests\NovaRequest;
-use Onemoreahmad\Phonenumber\Phonenumber;
+use Novacom\PhoneNumber\PhoneNumber;
+
 
 class form extends Resource
 {
