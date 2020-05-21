@@ -15,7 +15,13 @@
         "build-dropdown": "cd nova-components/Dropdown && npm run dev",
         "build-dropdown-prod": "cd nova-components/Dropdown && npm run prod",
         "build-phone_number": "cd nova-components/PhoneNumber && npm run dev",
-        "build-phone_number-prod": "cd nova-components/PhoneNumber && npm run prod"
+        "build-phone_number-prod": "cd nova-components/PhoneNumber && npm run prod",
+        "build-multiselctef": "cd nova-components/Multiselctef && npm run dev",
+        "build-multiselctef-prod": "cd nova-components/Multiselctef && npm run prod",
+        "build-filtercustom": "cd nova-components/Filtercustom && npm run dev",
+        "build-filtercustom-prod": "cd nova-components/Filtercustom && npm run prod",
+        "build-filter-custom": "cd nova-components/FilterCustom && npm run dev",
+        "build-filter-custom-prod": "cd nova-components/FilterCustom && npm run prod"
     },
     "devDependencies": {
         "axios": "^0.19",
@@ -28,6 +34,7 @@
         "vue-template-compiler": "^2.6.11"
     },
     "dependencies": {
+        "vue-multiselect": "^2.1.6",
         "vue-tel-input": "^4.4.0"
     }
 }

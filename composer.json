@@ -18,7 +18,8 @@
         "laravel/nova": "*",
         "laravel/tinker": "^2.0",
         "onemoreahmad/phonenumber": "dev-master",
-        "novacom/phone_number": "*"
+        "novacom/phone_number": "*",
+        "enas/filter-custom": "*"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
@@ -39,6 +40,10 @@
         {
             "type": "path",
             "url": "./nova-components/PhoneNumber"
+        },
+        {
+            "type": "path",
+            "url": "./nova-components/FilterCustom"
         }
     ],
     "config": {

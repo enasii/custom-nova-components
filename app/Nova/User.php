@@ -2,6 +2,12 @@
 
 namespace App\Nova;
 
+
+use App\Nova\Filters\exfilter;
+use App\Nova\Filters\myfilter;
+use App\Nova\Filters\MyNewFilter;
+use Enas\Filtercustom\Filtercustom;
+use Enas\Multiselctef\Multiselctef;
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\Gravatar;
 use Laravel\Nova\Fields\ID;
@@ -82,7 +88,8 @@ class User extends Resource
      */
     public function filters(Request $request)
     {
-        return [];
+        return [new exfilter()
+        ];
     }
 
     /**
